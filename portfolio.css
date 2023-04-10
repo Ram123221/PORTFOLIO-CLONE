@@ -1,0 +1,346 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header-n-nav-sticky
+{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#navbar
+{
+    padding: 1.3rem 3rem;
+    box-shadow: 0 3px 8px 3px rgba(239, 237, 237, 0.5);
+}
+
+#navbar > #img-container , #navbar > #toggle-container
+{
+    display: inline-block;
+    width: calc(50% - 2px);
+    vertical-align: middle;
+}
+
+#navbar > #img-container > img
+{
+    display: block;
+    width: 80px;
+    height: 40px;
+}
+
+#navbar > #toggle-container > span#toggle
+{
+    display: block;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+#navbar > #toggle-container > span > i::before
+{
+    line-height: 1.4;
+    font-size: 1.8rem;
+}
+/*links*/
+ul#links
+{
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+.box-shadow
+{
+    box-shadow: 0 3px 10px rgba(150, 149, 149, 0.2);
+}
+
+button:hover
+{
+    cursor: pointer;
+}
+
+ul#links > li
+{
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+    /* padding: 0.6rem 0; */
+}
+
+ul#links > li > a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(88, 87, 87);
+    padding: 10px;
+}
+
+ul#links > li.active
+{
+    color: tomato;
+}
+
+.active-alt
+{
+    padding: 10px;
+    background-color: tomato;
+    color: white !important;
+    border-radius: 20px;
+    border: none;
+}
+
+.active-black
+{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.hide
+{
+    height: 0;
+}
+
+.show
+{
+    height: calc(36.8px * 8 + 20px);
+}
+
+.border
+{
+    border: 2px solid black !important;
+}
+
+section
+{
+    padding: 10vh 15vw;
+}
+/*about section*/
+section#about
+{
+
+}
+
+#about > p
+{
+    font-size: 2rem;
+}
+
+#about > h1
+{
+    font-size: 5rem;
+}
+
+#about > div#btns-container
+{
+    padding: 1.3rem 0px;
+}
+
+#about button
+{
+    border: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+div#icons > span
+{
+    display: inline-block;
+    width: 45px;
+    line-height: 45px;
+    height: 45px;
+    text-align: center;
+    border: 2px solid tomato;
+    color: tomato;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*experience information*/
+div#exp-info
+{
+    border: 1px solid rgba(224, 220, 220, 0.5);
+    border-radius: 40px;
+    padding: 1rem;
+    margin: 15vh 0 12vh;
+    box-shadow: 0 0 30px rgba(161, 160, 160, 0.5);
+}
+
+#exp-info > .exp
+{
+    display: inline-block;
+    width: calc(100% / 3 - 3px);
+    text-align: center;
+}
+
+#exp-info > .exp:not(#exp-info > .exp:last-child)
+{
+    border-right: 1px solid rgba(0,0,0,0.5);
+}
+
+#about-main-part
+{
+    text-align: center;
+}
+
+#about-main-part > img
+{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#about-main-part > img ~ *
+{
+    margin: 8px 0;
+}
+
+#about-main-part > button
+{
+    display: inline-block;
+}
+
+section#service
+{
+    text-align: center;
+}
+
+#service > span, #contact > span, #form-container > span
+{
+    display: block;
+    padding: 3px 0;
+}
+
+#service > h3, #contact > h3, #form-container > h3
+{
+    padding: 7px 0;
+}
+
+#service > p, #contact > p
+{
+    padding: 17px 0 2.7rem;
+}
+
+#service > #service-cards > .service-card
+{
+    width: 85%;
+    margin: auto;
+    padding: 3.3rem 0;
+    border: 1px solid rgb(221, 221, 221);
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 4px 4px 10px 4px rgba(218, 215, 215, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#service > #service-cards > .service-card:hover,
+#service > #service-cards > .service-card:hover i::before
+{
+    background-color: tomato;
+    color: white;
+}
+
+#service > #service-cards > .service-card > span > i::before
+{
+    font-size: 2.5rem;
+    color: tomato;
+}
+
+#service > #service-cards > .service-card > p
+{
+    font-size: 1.3rem;
+}
+
+/*contact*/
+section#contact
+{
+
+}
+
+section#contact > p, #contact > span , #contact > h3
+{
+    text-align: center;
+}
+
+#contact > div#form-container
+{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 3px rgba(216, 214, 214, 0.5)
+}
+
+#form-container > form
+{
+    padding: 30px 0;
+}
+
+#form-container > form > input,
+#form-container > form > textarea
+{
+    padding: 10px;
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+footer
+{
+    text-align: center;
+}
+
+footer > p > span
+{
+    color: tomato;
+}
+
+footer > div#icons
+{
+    margin: 25px 0;
+}
+
+@media screen and (min-width: 772px)
+{
+    #header-n-nav-sticky
+    {
+        box-shadow: 0 3px 8px 3px rgba(239, 237, 237, 0.5);
+    }
+
+    #navbar > #toggle-container > span#toggle
+
+    {
+        display: none;
+    }
+
+    #navbar, ul#links
+    {
+        display: inline-block;
+        box-shadow: unset;
+    }
+
+    #navbar
+    {
+        width: calc(25% - 2px);
+    }
+
+    ul#links
+    {
+        margin-left: -2px;
+        padding: 20px 1rem;
+        width: calc(75% - 2px);
+        vertical-align: middle;
+        height: 81.6px;
+    }
+    
+    ul#links > li
+    {
+        display: inline-block;
+    }
+}
