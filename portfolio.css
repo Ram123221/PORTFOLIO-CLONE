@@ -344,3 +344,29 @@ footer > div#icons
         display: inline-block;
     }
 }
+
+span.mode{
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    cursor: pointer;
+}
+
+span.mode > i::before{
+    font-size: 1.5rem;
+    border: 1px dashed rgba(216, 214, 214, 0.5);
+    padding: 6px;
+}
+
+.visible{
+    display: block;
+}
+
+.invisible{
+    display: none;
+}
+
+.black-white{
+    color: white !important;
+    background-color: black !important;
+}
