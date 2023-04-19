@@ -149,7 +149,7 @@
             <script src="portfolio.js"></script>
    ```
    
-#HTML COmplete Code
+# HTML Complete Code
 ```
 <!DOCTYPE html>
 <html lang="en">
