@@ -40,6 +40,7 @@
 ```
 
 ## about-section
+
 ```
  <section id="about">
         <p>hello, I'm</p>
@@ -80,6 +81,7 @@
     </section>
   ```
   ## services section
+  
   ```
     <section id="service">
         <span>Service</span>
@@ -107,6 +109,7 @@
   ```
 
     ## contact section
+    
     ```
         <section id="contact">
                 <span>Contact</span>
@@ -126,6 +129,7 @@
    ```
 
     ## footer section
+    
     ```
         <footer>
             <p>Copyright 3989 &copy;<span> PNC BSC CSIT</span></p>
