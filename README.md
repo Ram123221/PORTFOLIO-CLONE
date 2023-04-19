@@ -109,40 +109,40 @@
   ```
 
     ## contact section
-    
-    ```
-        <section id="contact">
-                <span>Contact</span>
-                <h3>Get In Touch With Me</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste enim fugit sunt veniam ipsam nesciunt repellat, dolores, quam consectetur ad modi. Ratione cumque vel ipsa?</p>
-                <div id="form-container">
-                    <span>Available 24/7</span>
-                    <h3>Get In Touch</h3>
-                    <form method="post">
-                        <input type="email" name="email" placeholder="Enter email" />
-                        <input type="password" name="password" placeholder="Password" />
-                        <textarea name="message" rows="5" placeholder="Message"></textarea>
-                        <input type="submit" value="Send Message" class="active-alt" />
-                    </form>
-                </div>
-            </section>
-   ```
+
+        ```
+            <section id="contact">
+                    <span>Contact</span>
+                    <h3>Get In Touch With Me</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste enim fugit sunt veniam ipsam nesciunt repellat, dolores, quam consectetur ad modi. Ratione cumque vel ipsa?</p>
+                    <div id="form-container">
+                        <span>Available 24/7</span>
+                        <h3>Get In Touch</h3>
+                        <form method="post">
+                            <input type="email" name="email" placeholder="Enter email" />
+                            <input type="password" name="password" placeholder="Password" />
+                            <textarea name="message" rows="5" placeholder="Message"></textarea>
+                            <input type="submit" value="Send Message" class="active-alt" />
+                        </form>
+                    </div>
+                </section>
+       ```
 
     ## footer section
     
-    ```
-        <footer>
-            <p>Copyright 3989 &copy;<span> PNC BSC CSIT</span></p>
-            <div id="icons">
-                <span><i class="fa-brands fa-facebook-f"></i></span>
-                <span><i class="fa-brands fa-google-plus-g"></i></span>
-                <span><i class="fa-brands fa-github-alt"></i></span>
-                <span><i class="fa-brands fa-twitter"></i></span>
-            </div>
-        </footer>
+        ```
+            <footer>
+                <p>Copyright 3989 &copy;<span> PNC BSC CSIT</span></p>
+                <div id="icons">
+                    <span><i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-brands fa-google-plus-g"></i></span>
+                    <span><i class="fa-brands fa-github-alt"></i></span>
+                    <span><i class="fa-brands fa-twitter"></i></span>
+                </div>
+            </footer>
 
-        <span class="mode light invisible"><i class="fa-regular fa-sun"></i></span>
-        <span class="mode dark visible"><i class="fa-solid fa-moon"></i></span>
+            <span class="mode light invisible"><i class="fa-regular fa-sun"></i></span>
+            <span class="mode dark visible"><i class="fa-solid fa-moon"></i></span>
 
-        <script src="portfolio.js"></script>
-    ```
+            <script src="portfolio.js"></script>
+        ```
