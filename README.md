@@ -78,9 +78,9 @@
             <button class="active-alt">DOWNLOAD CV</button>
         </div>
     </section>
-    ```
+  ```
   ## services section
-    ```
+  ```
     <section id="service">
         <span>Service</span>
         <h3>What I Do</h3>
