@@ -146,3 +146,60 @@
 
             <script src="portfolio.js"></script>
    ```
+
+# CSS
+## header-n-nav-sticky
+
+```
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header-n-nav-sticky
+{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#navbar
+{
+    padding: 1.3rem 3rem;
+    box-shadow: 0 3px 8px 3px rgba(239, 237, 237, 0.5);
+}
+
+#navbar > #img-container , #navbar > #toggle-container
+{
+    display: inline-block;
+    width: calc(50% - 2px);
+    vertical-align: middle;
+}
+
+#navbar > #img-container > img
+{
+    display: block;
+    width: 80px;
+    height: 40px;
+}
+
+#navbar > #toggle-container > span#toggle
+{
+    display: block;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+#navbar > #toggle-container > span > i::before
+{
+    line-height: 1.4;
+    font-size: 1.8rem;
+}
+```
