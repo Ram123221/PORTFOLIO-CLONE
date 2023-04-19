@@ -110,7 +110,7 @@
 
     ## contact section
 
-        ```
+    ```
             <section id="contact">
                     <span>Contact</span>
                     <h3>Get In Touch With Me</h3>
@@ -126,11 +126,11 @@
                         </form>
                     </div>
                 </section>
-       ```
+    ```
 
     ## footer section
     
-        ```
+    ```
             <footer>
                 <p>Copyright 3989 &copy;<span> PNC BSC CSIT</span></p>
                 <div id="icons">
@@ -145,4 +145,4 @@
             <span class="mode dark visible"><i class="fa-solid fa-moon"></i></span>
 
             <script src="portfolio.js"></script>
-        ```
+     ```
